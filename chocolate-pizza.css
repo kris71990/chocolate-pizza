@@ -1,0 +1,147 @@
+body {
+  margin: 10px auto;
+  width: 750px;
+}
+
+div {
+  display: inline-block;
+}
+
+header {
+  padding-bottom: 20px;
+}
+
+header div h1 {
+  font-family: 'Yellowtail', cursive;
+  font-size: 250%;
+}
+
+header div p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 50%;
+  padding-left: 5px;
+}
+
+.float {
+  float: right;
+  margin: 15px 0;
+}
+
+header ul li {
+  display: inline-block;
+}
+
+.empty-box {
+  margin-top: 20px;
+  height: 10px;
+  width: 750px;
+  background: repeating-linear-gradient(45deg, grey, white, 5px, grey 5px, white 5px);
+}
+
+main {
+  margin-top: 50px;
+}
+
+main div h1 {
+  font-size: 250%;
+  font-family: 'Oswald', sans-serif;
+  padding-bottom: 10px;
+}
+
+main div p {
+  font-size: 75%;
+  color: grey;
+}
+
+main .float {
+  float: right;
+  padding-top: 15px;
+}
+
+.float p {
+  display: inline;
+}
+
+#info {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#info img {
+  width: 750px;
+  margin-bottom: 20px;
+}
+
+#info p {
+  text-indent: 30px;
+  line-height: 1.2em;
+  font-family: serif;
+}
+
+#ingredients {
+  background-image: url('img/list-bg.png');
+  background-repeat: no-repeat;
+  height: 300px;
+  padding-bottom: 20px;
+}
+
+#ingredients form div {
+  width: 200px;
+  display: inline-block;
+  margin-right: 80px;
+  padding-left: 60px;
+  line-height: 2em;
+  font-family: 'Handlee', cursive;
+}
+
+#ingredients form div input {
+  display: inline-block;
+}
+
+input[type=checkbox]:checked + label {
+  text-decoration: line-through;
+} 
+
+#footer-1 {
+  margin-top: 20px;
+  padding-bottom: 50px;
+  border-bottom: 1px solid grey;
+}
+
+#footer-1 img {
+  width: 50px;
+  margin-top: 10px;
+}
+
+#footer-1 div {
+  width: 500px;
+  display: inline-block;
+  vertical-align: top;
+  padding: 10px;
+  line-height: 1.2em;
+}
+
+#footer-1 h3 {
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
+#footer-1 button {
+  width: 150px;
+  padding: 10px 20px;
+  vertical-align: text-bottom;
+}
+
+footer img {
+  display: block;
+  margin: -15 auto;
+}
+
+footer p {
+  width: 300px;
+  margin: 50 auto;
+  text-align: center;
+  line-height: 1.5em;
+  font-family: serif;
+  color: grey;
+}
